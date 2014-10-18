@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="AngelBob"
+           fetch="https://github.com/AngelBob" />
+
+    <!-- device -->
+    <project name="android_device_lge_d855/" path="device/lge/d855" remote="AngelBob" revision="android-5.0" />
+    <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="AngelBob" revision="android-5.0"/>
+    <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="AngelBob" revision="android-5.0" />
+    <project name="android_device_qcom_common" path="device/qcom/common" remote="AngelBob" revision="android-5.0" />
+    <!-- blobs -->
+    <project name="proprietary_vendor_lge/" path="vendor/lge" remote="AngelBob" revision="android-5.0" />  
+    <!-- caf-bfam -->
+    <project name="android_hardware_qcom_audio-caf-bfam" path="hardware/qcom/audio-caf-bfam" remote="omnirom" revision="android-5.0" />
+    <project name="android_hardware_qcom_display-caf-bfam" path="hardware/qcom/display-caf-bfam" remote="omnirom" revision="android-5.0" />
+    <project name="android_hardware_qcom_media-caf-bfam" path="hardware/qcom/media-caf-bfam" remote="omnirom" revision="android-5.0" />
+    <!-- omni caf fixes -->
+    <remove-project name="android_hardware_qcom_wlan" />
+    <remove-project name="android_frameworks_native" />
+    <remove-project name="android_frameworks_av" />
+    <remove-project name="android_hardware_ril" />
+    <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="AngelBob" revision="android-5.0" />
+    <project name="android_frameworks_native" path="frameworks/native" remote="omnirom" revision="android-5.0-caf" groups="pdk" />
+    <project name="android_frameworks_av" path="frameworks/av" remote="omnirom" revision="android-5.0-caf" groups="pdk" />
+    <project name="android_hardware_ril" path="hardware/ril" remote="AngelBob" revision="android-5.0-caf" />
+</manifest>
