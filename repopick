@@ -1,4 +1,5 @@
 84561 #g3-common: add low-latency-playback bt-sco-and-speaker
+84629 #Don't ship VoiceDialer
 84832 #camera: add 3840x2160 video size
 84833 #camera: set lge-camera parameter
 85684 #g3: Increase boost duration
