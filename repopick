@@ -4,5 +4,8 @@
 84833 #camera: set lge-camera parameter
 85684 #g3: Increase boost duration
 85882 #g3-common: give lcd brightness permissions
+85897 #D855: Inherit common items first
 86512 #blobs: remove deprecated adreno blobs
+86729 #g3-common: increase overall volume levels
+86730 #g3-common: boost ImageEncoding quality to maximum
 
