@@ -5,7 +5,9 @@
 85684 #g3: Increase boost duration
 85882 #g3-common: give lcd brightness permissions
 85897 #D855: Inherit common items first
-86512 #blobs: remove deprecated adreno blobs
+86392 #g3-common: cmhw: Don't cache tap-to-wake setting
+86620 #lge_touch_core: add show_lpwg_notify to show low power wake gesture status
 86729 #g3-common: increase overall volume levels
 86730 #g3-common: boost ImageEncoding quality to maximum
-
+86787 #d855: decommonize NFC config and HCE permission
+86783 #g3-common: decommonize NFC config and HCE permission
